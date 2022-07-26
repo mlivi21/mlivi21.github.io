@@ -1,0 +1,47 @@
+body {
+  background-color:red;
+  font-family:"helvetica", "arial", sans-serif;
+  padding:10px;
+}
+
+.header {
+  background-color:gold;
+  padding: 30px;
+  display:flex;
+  align-items:right;
+  flex-direction: column;
+}
+
+.content-image {
+  width:10%;
+}
+
+.nav {
+  background-color:black;
+  color:white;
+  padding:5px;
+}
+
+.nav ul {
+  padding-left:0px;
+}
+
+.nav li {
+  list-style-type:none;
+  display:inline;
+  padding: 5px 10px;
+
+}
+.nav li:hover {
+  color:red
+}
+
+
+.content {
+  background-color:gold;
+  padding:30px;
+  border-left: 3px solid black;
+
+}
+
+.footer
