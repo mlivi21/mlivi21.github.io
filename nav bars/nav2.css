@@ -1,0 +1,44 @@
+header {
+  background-color:darkslateblue;
+  color:gold;
+  padding:5px;
+  text-align:center;
+}
+
+body {
+  background-color:midnightblue;
+  color:white;
+}
+
+nav {
+  background-color:red;
+  color:white;
+
+}
+
+nav ul {
+  display:flex;
+  justify-content:center;
+  padding-left:0px;
+}
+
+nav li {
+  list-style-type: none;
+  padding:0px 25px;
+}
+
+nav a {
+  color:black;
+  text-decoration:none;
+
+}
+nav a:hover {
+  color:gold;
+  text-decoration:underline;
+  font-weight:bold;
+  box-shadow:darkgrey;
+}
+
+content {
+  im
+}
