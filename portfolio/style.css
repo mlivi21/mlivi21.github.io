@@ -1,0 +1,51 @@
+
+
+body {
+  font-family:sans-serif;
+  background: linear-gradient(-60deg, black 65%, blue);
+  background-repeat:no-repeat;
+  color: white;
+}
+
+header {
+  color:midnightblue;
+  background-color:white;
+  padding:3px;
+  text-align:center;
+}
+
+nav ul {
+  display:flex;
+  justify-content:center;
+  padding-left:0px;
+  color:white;
+}
+
+nav li {
+  list-style-type: none;
+  padding:0px 15px;
+  color:white;
+}
+
+nav a {
+  color:white;
+  text-decoration:none;
+}
+
+nav a:hover {
+  color:red;
+  text-decoration:underline;
+  font-weight:bold;
+  box-shadow:darkgrey;
+}
+
+.content p {
+  color:white;
+  padding:15px;
+}
+
+.aside img {
+  width:550px;
+  float:left;
+  padding:10px;
+}
