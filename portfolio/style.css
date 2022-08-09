@@ -2,7 +2,7 @@
 
 body {
   font-family:sans-serif;
-  background: linear-gradient(-60deg, black 65%, darkgrey);
+  background: linear-gradient(-60deg, black 65%, blue);
   background-repeat:no-repeat;
   color: white;
 }
@@ -42,7 +42,7 @@ nav a:hover {
 .content p {
   color:white;
   padding:15px;
-  }
+}
 
 .aside img {
   width:60%;
