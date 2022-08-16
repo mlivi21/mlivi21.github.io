@@ -70,3 +70,8 @@ footer {
     height:200px;
     border: 2px solid purple;
 }
+
+.grid-item img {
+    width:100%;
+}
+
