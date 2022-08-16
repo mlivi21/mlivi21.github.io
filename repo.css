@@ -24,8 +24,32 @@ nav a:hover {
   box-shadow:darkgrey;
 }
 
-image {
+img {
 display:block;
 margin:auto;
 width:50%;
+justify-content: center;
+}
+
+footer {
+  color:blue;
+padding:10px;
+}
+#insta:hover {
+color:coral;
+}
+#wa:hover {
+  color:green;
+}
+#snap:hover {
+  color:gold;
+}
+#yt:hover {
+  color:red;
+}
+
+footer ion-icon {
+  width:35px;
+  height:35px;
+  padding:25px;
 }

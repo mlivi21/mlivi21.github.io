@@ -1,0 +1,72 @@
+@import url(https://fonts.google.com/noto/specimen/Noto+Sans+KR);
+
+
+body {
+    margin:0;
+}
+.header-top {
+    display:flex;
+    justify-content:space-between;
+    aligh-items:center;
+    padding:20px;
+    background:pink;
+}
+.header-item {
+    flex:1;
+}
+.right-text {
+    text-align:right;
+}
+nav {
+    background:blanchedalmond;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 20px 0px;
+    font-family: "montserrat" ;
+}
+nav ul {
+    padding-left:0px;
+    margin:0;
+    display:flex;
+}
+nav li {
+    list-style-type:none;
+    padding: 10px 20px;
+}
+
+.nav-right ul {
+    flex-direction: column;
+    text-align:right;
+}
+.nav-right li {
+    padding: 0px 20px;
+}
+
+footer {
+    background:lightgreen;
+    display:flex;
+}
+.footer-right,.footer-left {
+    height:500px;
+    border: 2px solid blue;
+}
+.footer-right {
+    flex:2;
+}
+.footer-left {
+    flex:1;
+}
+
+.grid-wrapper {
+    display:grid;
+    grid-template-columns: auto auto;
+    width:80%;
+    margin: 10% auto;
+    grid-gap:5px
+}
+.grid-item {
+    background:coral;
+    height:200px;
+    border: 2px solid purple;
+}
