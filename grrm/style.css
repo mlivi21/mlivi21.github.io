@@ -1,20 +1,40 @@
 .logo {
 display:flex;
 width:15%;
+padding:5px;
+}
+
+body {
+    background-image: url("https://fsb.zobj.net/crop.php?r=j1h3ELsQZwvgwUF0KxNQ7D1MXaggzIhZSx17EMuVQyqO8xezXecK7JxzRCV5JvdBfzt6ajjAehcCh12mzT7sYWJ15YuIeiK3Hgx_3qShaVlHk0Ii8rt3ho784XYH0QFhlFRixuP82LOzDNzNj-ehZ5l1SOsLy1QKs2HTXWb-ZNtaYeQmboQAhndK_dj8jUAc5X1hE2B3YUG_rmYa");
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    color:white;
 }
 
 .header {
     display:flex;
+    color:white;
 }
-.header title {
+.title {
     float:right;
+    padding:5px;
 }
 .header logo {
     float:left;
 }
 .menu {
+    display:flex;
+    color:white;
 }
 
 nav li {
     list-style-type:none;
+}
+slides {
+}
+
+.slides {
+    display:flex;
+    margin:auto;
+    width:98%;
 }
