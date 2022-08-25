@@ -9,6 +9,7 @@ body {
     background-repeat: repeat-x;
     background-attachment: fixed;
     color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .header {
@@ -16,6 +17,7 @@ body {
     color:white;
 }
 .title {
+    display:flex;
     float:right;
     padding:5px;
 }
