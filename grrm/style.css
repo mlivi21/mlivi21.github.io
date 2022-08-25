@@ -1,7 +1,7 @@
 .logo {
 display:flex;
 width:15%;
-padding:5px;
+padding:15px;
 }
 
 body {
@@ -12,21 +12,29 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.header {
+header {
     display:flex;
     color:white;
+    align-items: center;
 }
 .title {
     display:flex;
     float:right;
-    padding:5px;
+    padding:15px;
 }
-.header logo {
+.logo {
     float:left;
+    max-width:150px;
 }
 .menu {
     display:flex;
     color:white;
+}
+main {
+    padding:15px;
+}
+.more {
+    max-width: 500px;
 }
 
 nav li {
@@ -38,5 +46,5 @@ slides {
 .slides {
     display:flex;
     margin:auto;
-    width:98%;
+    width:105%;
 }
