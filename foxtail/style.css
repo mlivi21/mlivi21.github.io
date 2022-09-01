@@ -1,0 +1,86 @@
+
+header {
+    display:flex;
+    color:white;
+    align-items: center;
+    background-color: black;
+    justify-content:space-between;
+    padding-left: 25px;
+    padding-right: 25;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 6px 6px black;
+
+}
+body {
+    background-image: url("./assets/beanslight.png");
+}
+.title {
+    display:flex;
+    float:left;
+    font-family:lobster;
+}
+.logo {
+    float:right;
+    max-width:150px;
+    display:flex;
+}
+.logo img {
+    max-width:100%;
+}
+main {
+    margin:25px;
+    font-family: montserrat, sans-serif;
+}
+
+nav {
+    background-color:#e1a177;
+    color:black;
+    padding:5px;
+    font-family:montserrat, sans-serif;
+    box-shadow: 6px 6px;
+  } 
+nav ul {
+    display:flex;
+    justify-content:center;
+    padding-left:0px;
+} 
+nav li {
+    list-style-type: none;
+    padding:0px 25px;
+}
+nav li:hover {
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.mission {
+    border-left:3px solid black;
+    padding-left:5px;
+}
+.timer {
+    display: flex;
+    font-family:lobster;
+    font-size: large;
+    justify-content: center;
+}
+
+footer {
+    background-color:#e1a177;
+    font-family: montserrat, sans-serif;
+    padding:10px;
+    box-shadow: 6px 6px black;
+    display:flex;
+    justify-content: space-between;
+}
+footer img {
+    max-width:300px
+}
+.info {
+    justify-content: left;
+}
+.logoft {
+    justify-content: right;
+    padding-left: 30px;
+}

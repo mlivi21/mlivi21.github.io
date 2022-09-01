@@ -1,5 +1,5 @@
 body{
-  background-color:lightgrey
+  background-color:lightgrey;
   font-family:monospace;
 }
 
@@ -14,6 +14,7 @@ header {
   text-align: center;
   padding:20px;
   border-bottom:2px solid white;
+  display:flex;
 }
 
 nav {
@@ -32,12 +33,12 @@ nav li {
   padding:0px 15px;
 }
 
-nav a {
+nav  {
   color:black;
   text-decoration:none;
 
 }
-nav a:hover {
+nav :hover {
   color:red;
   text-decoration:underline;
   font-weight:bold;

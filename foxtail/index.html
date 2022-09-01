@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="title"> <h1>Foxtail Farms</h1> </div>
+        <div class="logo"> <img src="./assets/base_logo.png" alt="logo"> </div>
+    </header>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Our Story</li>
+            <li>Products</li>
+        </ul>
+    </nav>
+    <main>
+
+        <div class="mission">
+          <h1>Our Mission</h1>
+          <p>We strive to offer high quality produce utilizing cutting edge technology. This innovative approach allows us to selectively cultivate the “perfect” produce.”
+            This passion for perfection bleeds into our brand. “Telios” the fox in our logo comes from the word “perfect” in greek, Teleios.</p>
+          <button>Learn More</button>
+        </div>
+        <!-- Display the countdown timer in an element -->
+<p class="timer" id="demo"></p>
+<div class="timer">
+    <h1>Robusta Beans Back For Fall!</h1>
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Oct 1, 2022 00:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+</div>
+    
+    </main>
+    <footer>
+        <div class="info">
+        <h4>Phone: 407-917-0067</h4>
+        <h4>Fax: who still does that?</h4>
+        <h4>Email: joe.rogan@foxtail.com</h4>
+        <h4>Address: N 5th cir, Timbuck Two, 33317</h4>
+    </div>
+        <div class="logoft"><img src="./assets/foxblack.png" alt="logo2"></div>
+    </footer>
+</body>
+</html>
