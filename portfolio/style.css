@@ -8,7 +8,6 @@ body {
   margin:0px;
 }
 
-main {}
 .image {
   width:50%;
   display:flex;
@@ -65,3 +64,9 @@ nav a:hover {
   box-shadow:darkgrey;
 }
 
+@media (max-width:600px){
+  .image {
+    max-width:400px;
+    max-height:400px;
+  }
+}

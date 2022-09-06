@@ -1,3 +1,9 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1533134486753-c833f0ed4866?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    color:white;
+}
 nav ul {
   display:flex;
   justify-content:center;
@@ -32,8 +38,10 @@ justify-content: center;
 }
 
 footer {
-  color:blue;
+  display:flex;
+  color:white;
 padding:10px;
+justify-content: center;
 }
 #insta:hover {
 color:coral;
