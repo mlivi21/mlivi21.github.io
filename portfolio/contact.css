@@ -41,6 +41,7 @@ body {
   }
 .contact_card {
     justify-content: center;
+    padding:25px;
 }
 .contact_card img {
   display: flex;
