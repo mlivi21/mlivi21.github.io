@@ -10,7 +10,6 @@ body {
 
 .image {
   width:50%;
-  display:flex;
   padding:5px;
 }
 .image img {
@@ -18,7 +17,6 @@ body {
   float:right;
 }
 .content{
-  width:50%;
   color:white;
   padding:15px;
   text-align:center;
@@ -67,6 +65,28 @@ nav a:hover {
 @media (max-width:600px){
   .image {
     max-width:400px;
-    max-height:400px;
   }
+@media (max-width:600px) {
+  .about {
+    flex-wrap:wrap;
+    flex-direction:column;
+  }
+  .about_right {
+    min-height: 420px;
+  }
+
+}
+}
+.about {
+  display:flex;
+}
+.about_right, .about_left  {
+  flex:1
+}
+.about_right {
+  background-image: url("./assets/DR3dnf.jpg");
+  background-size:145%;
+  background-position:center;
+  background-repeat: no-repeat;
+  height:250px;
 }
