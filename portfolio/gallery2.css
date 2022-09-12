@@ -39,3 +39,6 @@ body {
     font-weight:bold;
     box-shadow:darkgrey;
   }
+  .art {
+    max-width: 400px;
+  }
