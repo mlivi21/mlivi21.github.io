@@ -13,7 +13,8 @@ header {
 
 }
 body {
-    background-color: #D2F6F0;
+    background-image: url("/green/sky.png");
+    background-attachment: fixed;
     font-family:sans-serif;
     margin:15px;
     text-align: center;
